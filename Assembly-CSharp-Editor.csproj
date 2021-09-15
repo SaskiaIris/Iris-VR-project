@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C873848B-74AC-059D-D7C2-44609906F02A}</ProjectGuid>
+    <ProjectGuid>{ACA661C1-E57F-4173-863F-4D93F3F9801C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -53,17 +53,12 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Editor\SliceHelperEditor.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Editor\BewerageMakerEditor.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Editor\ProductEditor.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Editor\ScreenShotHelperEditor.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Editor\ScreenShotImportSettings.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Editor\ProductManagerEditor.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Editor\CurveGrid.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Editor\Trackball.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Editor\ConvertToLog.shader" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Editor\ScreenShotImportSettings.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Editor\SliceHelperEditor.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Editor\ScreenShotHelperEditor.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Editor\ProductManagerEditor.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Editor\BewerageMakerEditor.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Editor\ProductEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -765,16 +760,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{EEB261B9-D5B7-208D-4CD4-F11B7E98B790}</Project>
+      <Project>{1E765761-C3D8-9D10-52AF-615B5114C2E4}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{25E75024-78DF-DD92-7EB3-EB89ABDF499E}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{76BD12F9-5B3D-C9CF-5D17-6BB7656FAC47}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

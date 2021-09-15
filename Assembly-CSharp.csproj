@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EEB261B9-D5B7-208D-4CD4-F11B7E98B790}</ProjectGuid>
+    <ProjectGuid>{1E765761-C3D8-9D10-52AF-615B5114C2E4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,100 +53,32 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\ProductWithCover.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Utilities\BasicGameEvents.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\OnClickCoverHelper.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\ProductManager.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\ProductGameObject.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\ReadyToServe.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\DrinkableProduct.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\CookingGameObject.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\FillCupHelper.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\PlayerSlots.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Utilities\ScreenShotHelper.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Microwave.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\PanGameObject.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Product.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\OrderGenerator.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\ServeOrder.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\HeatableProduct.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\ProgressHelper.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\StoveGameObject.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Utilities\SliceHelper.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\BewerageMaker.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\DeleteProductOnSlot.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\ProductType.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\Utilities\BasicCameraControl.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\CreateProductOnPlaceHolder.cs" />
-    <Compile Include="Assets\CoffeeShopStarterPack\Scripts\CookableProduct.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\StdLib.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Waveform.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVOUpsample.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Distortion.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ExposureHistogram.hlsl" />
-    <None Include="Assets\SineVFX\TranslucentCrystals\Resources\Shaders\SkyboxProceduralDesaturated.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Texture3DLerp.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DeferredFog.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\TemporalAntialiasing.shader" />
-    <None Include="Assets\SineVFX\TranslucentCrystals\Readme.txt" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\FastApproximateAntialiasing.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Dithering.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Bloom.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Vectorscope.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Sampling.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStdFromTexArray.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Lut3DBaker.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Waveform.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\PSSL.hlsl" />
-    <None Include="Assets\SineVFX\TranslucentCrystals\_SRP\!!!_ReadBeforeImport_!!!.txt" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\LightMeter.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\AutoExposure.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVORender.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Texture2DLerp.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\SubpixelMorphologicalAntialiasingBridge.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DiskKernels.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\D3D11.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVODownsample2.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScalableAO.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVO.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Vectorscope.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\D3D9.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScalableAO.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\ACES.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\FinalPass.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Histogram.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Histogram.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\Switch.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\Metal.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Uber.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\xRLib.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStdFromDoubleWide.shader" />
-    <None Include="Assets\SineVFX\TranslucentCrystals\Resources\Shaders\Crystal.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Debug\Overlays.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\PSP2.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScreenSpaceReflections.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DepthOfField.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DiscardAlpha.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\OpenGL.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Lut2DBaker.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\CopyStd.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MotionBlur.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\MultiScaleVODownsample1.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Fog.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ExposureHistogram.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\GrainBaker.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\GaussianDownsample.compute" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\ScreenSpaceReflections.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\XboxOne.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\Copy.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\D3D12.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\DepthOfField.shader" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Builtins\SubpixelMorphologicalAntialiasing.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\API\Vulkan.hlsl" />
-    <None Include="Assets\SineVFX\PostProcessingV2\Shaders\Colors.hlsl" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ProductGameObject.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\DrinkableProduct.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\PlayerSlots.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Utilities\SliceHelper.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\BewerageMaker.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\CreateProductOnPlaceHolder.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\OnClickCoverHelper.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ProductType.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\FillCupHelper.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Utilities\ScreenShotHelper.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ServeOrder.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ProgressHelper.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ProductManager.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Utilities\BasicCameraControl.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ReadyToServe.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Utilities\BasicGameEvents.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\StoveGameObject.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\CookableProduct.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Microwave.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ProductWithCover.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\PanGameObject.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\DeleteProductOnSlot.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\CookingGameObject.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\OrderGenerator.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Product.cs" />
+    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\HeatableProduct.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -784,14 +716,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{25E75024-78DF-DD92-7EB3-EB89ABDF499E}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{76BD12F9-5B3D-C9CF-5D17-6BB7656FAC47}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

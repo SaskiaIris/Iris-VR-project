@@ -341,7 +341,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1421445274
 GameObject:
@@ -373,7 +373,7 @@ Transform:
   m_Children:
   - {fileID: 41225610}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1421445276
 MonoBehaviour:
@@ -394,63 +394,6 @@ MonoBehaviour:
   m_CameraYOffset: 1.36144
   m_TrackingSpace: 3
   m_TrackingOriginMode: -2147483648
---- !u!1001 &1580147789
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 26092616555691655, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_Name
-      value: FastFood_Drinks
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.00000023841858
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7111027218946674300, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 86e477d6015698b4ca2d27d2f2be9c3c, type: 3}
 --- !u!1 &1702426916
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,60 +496,3 @@ Transform:
   m_Father: {fileID: 41225610}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1931010774
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.963982
-      objectReference: {fileID: 0}
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.5992026
-      objectReference: {fileID: 0}
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.95413595
-      objectReference: {fileID: 0}
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.29937384
-      objectReference: {fileID: 0}
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 34.84
-      objectReference: {fileID: 0}
-    - target: {fileID: 1157947489311092435, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7275372879038578765, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}
-      propertyPath: m_Name
-      value: Surfer Van Cartoon Style
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0bcb2c6d24dde45fe8c6c2039b481de9, type: 3}

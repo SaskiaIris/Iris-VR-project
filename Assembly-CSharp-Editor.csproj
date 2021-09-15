@@ -53,12 +53,14 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Editor\ScreenShotImportSettings.cs" />
     <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Editor\SliceHelperEditor.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Editor\ProductManagerEditor.cs" />
     <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Editor\BewerageMakerEditor.cs" />
     <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Editor\ProductEditor.cs" />
-    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Editor\ScreenShotHelperEditor.cs" />
-    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Editor\ScreenShotImportSettings.cs" />
-    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Editor\ProductManagerEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Editor\ScreenShotHelperEditorERROR.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

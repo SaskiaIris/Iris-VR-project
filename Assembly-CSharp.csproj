@@ -53,32 +53,32 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ProductGameObject.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\DrinkableProduct.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\PlayerSlots.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Utilities\SliceHelper.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\BewerageMaker.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\CreateProductOnPlaceHolder.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\OnClickCoverHelper.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ProductType.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\FillCupHelper.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Utilities\ScreenShotHelper.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ServeOrder.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ProgressHelper.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ProductManager.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Utilities\BasicCameraControl.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ReadyToServe.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Utilities\BasicGameEvents.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\StoveGameObject.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\CookableProduct.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Microwave.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\ProductWithCover.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\PanGameObject.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\DeleteProductOnSlot.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\CookingGameObject.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\OrderGenerator.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\Product.cs" />
-    <Compile Include="Assets\Third party assets\CoffeeShopStarterPack\Scripts\HeatableProduct.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\ProductWithCover.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Utilities\BasicGameEvents.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\OnClickCoverHelper.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\ProductManager.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\ProductGameObject.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\ReadyToServe.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\DrinkableProduct.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\CookingGameObject.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\FillCupHelper.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\PlayerSlots.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Utilities\ScreenShotHelper.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Microwave.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\PanGameObject.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Product.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\OrderGenerator.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\ServeOrder.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\HeatableProduct.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\ProgressHelper.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\StoveGameObject.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Utilities\SliceHelper.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\BewerageMaker.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\DeleteProductOnSlot.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\ProductType.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\Utilities\BasicCameraControl.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\CreateProductOnPlaceHolder.cs" />
+    <Compile Include="Assets\Third Party Assets\CoffeeShopStarterPack\Scripts\CookableProduct.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

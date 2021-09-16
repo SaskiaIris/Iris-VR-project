@@ -57,6 +57,7 @@
     <Compile Include="Assets\Scripts\HandPresence.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Third Party Assets\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
     <None Include="Assets\Third Party Assets\BarProps\Credits.txt" />
   </ItemGroup>
   <ItemGroup>

@@ -17,6 +17,10 @@ public class HandPresence : MonoBehaviour
 
 
 	void Start() {
+		TryInitialize();
+	}
+
+	void TryInitialize() {
 		List<InputDevice> devices = new List<InputDevice>();
 		InputDevices.GetDevicesWithCharacteristics(controllerCharacteristics, devices);
 
@@ -51,13 +55,17 @@ public class HandPresence : MonoBehaviour
 
 
 	void Update() {
-		if(showController) {
-			spawnedHandModel.SetActive(false);
-			spawnedController.SetActive(true);
+		if(!targetDevice.isValid) {
+			TryInitialize();
 		} else {
-			spawnedHandModel.SetActive(true);
-			spawnedController.SetActive(false);
-			UpdateHandAnimation();
+			if(showController) {
+				spawnedHandModel.SetActive(false);
+				spawnedController.SetActive(true);
+			} else {
+				spawnedHandModel.SetActive(true);
+				spawnedController.SetActive(false);
+				UpdateHandAnimation();
+			}
 		}
 	}
 }

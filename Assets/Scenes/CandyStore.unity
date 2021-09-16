@@ -387,3 +387,132 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bcdefae42478284c9047d8bffebafba, type: 3}
+--- !u!1001 &1775483502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2283998145508189885, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: m_Name
+      value: VR Rig
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+--- !u!1 &1775483503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4114553428587466183, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+  m_PrefabInstance: {fileID: 1775483502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1775483504 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 740062993113662515, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+  m_PrefabInstance: {fileID: 1775483502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1775483505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775483503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UpdateTrackingType: 0
+  m_EnableInputTracking: 1
+  m_EnableInputActions: 1
+  m_ModelPrefab: {fileID: 1292632747366372090, guid: c615838d19070864488fa6af6096f682, type: 3}
+  m_ModelParent: {fileID: 0}
+  m_Model: {fileID: 0}
+  m_AnimateModel: 0
+  m_ModelSelectTransition: 
+  m_ModelDeSelectTransition: 
+  m_ControllerNode: 5
+  m_SelectUsage: 3
+  m_ActivateUsage: 2
+  m_UIPressUsage: 2
+  m_AxisToPressThreshold: 0.1
+  m_RotateAnchorLeft: 16
+  m_RotateAnchorRight: 17
+  m_MoveObjectIn: 14
+  m_MoveObjectOut: 15
+  m_PoseProvider: {fileID: 0}
+--- !u!114 &1775483506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775483504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UpdateTrackingType: 0
+  m_EnableInputTracking: 1
+  m_EnableInputActions: 1
+  m_ModelPrefab: {fileID: 1292632747366372090, guid: 302f9e910ee39db42b07301186996327, type: 3}
+  m_ModelParent: {fileID: 0}
+  m_Model: {fileID: 0}
+  m_AnimateModel: 0
+  m_ModelSelectTransition: 
+  m_ModelDeSelectTransition: 
+  m_ControllerNode: 5
+  m_SelectUsage: 3
+  m_ActivateUsage: 2
+  m_UIPressUsage: 2
+  m_AxisToPressThreshold: 0.1
+  m_RotateAnchorLeft: 16
+  m_RotateAnchorRight: 17
+  m_MoveObjectIn: 14
+  m_MoveObjectOut: 15
+  m_PoseProvider: {fileID: 0}

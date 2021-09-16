@@ -57,10 +57,6 @@
     <Compile Include="Assets\Scripts\HandPresence.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Oud\Oculus\VR\Plugins\1.64.0\Win64OpenXR\OVRPlugin.dll" />
-    <None Include="Assets\Oud\Oculus\Spatializer\Plugins\x86_64\AudioPluginOculusSpatializer.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files\Unity Hub\Editor\2020.3.18f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

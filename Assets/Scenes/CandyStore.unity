@@ -450,6 +450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VR Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 2283998145789286144, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
+      propertyPath: near clip plane
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
 --- !u!1 &1775483503 stripped

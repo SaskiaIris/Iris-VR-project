@@ -57,6 +57,9 @@
     <Compile Include="Assets\Scripts\HandPresence.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Third Party Assets\BarProps\Credits.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>D:\Program Files\Unity\2020.3.18f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

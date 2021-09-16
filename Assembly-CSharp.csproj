@@ -57,6 +57,7 @@
     <Compile Include="Assets\Scripts\HandPresence.cs" />
     <Compile Include="Assets\Scripts\FallingTreats.cs" />
     <Compile Include="Assets\Scripts\ScoreCount.cs" />
+    <Compile Include="Assets\RotateConstraint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Third Party Assets\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />

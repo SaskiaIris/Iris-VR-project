@@ -10,6 +10,9 @@ public class FallingTreats : MonoBehaviour
     [SerializeField]
     private float spawnDelay = 2.0f;
 
+	[SerializeField]
+	private bool canSpawn = true;
+
     private int treatNumberToSpawn;
     private GameObject treatToSpawn;
 
@@ -26,16 +29,19 @@ public class FallingTreats : MonoBehaviour
     }
 
     IEnumerator SpawnTreats() {
-        treatNumberToSpawn = Random.Range(0, treats.Length);
-        treatToSpawn = treats[treatNumberToSpawn];
+		while(canSpawn) {
 
-        Vector3 randomRotation = transform.eulerAngles;
-        randomRotation.y = Random.Range(0f, 360f);
+			treatNumberToSpawn = Random.Range(0, treats.Length);
+			treatToSpawn = treats[treatNumberToSpawn];
 
-        treatToSpawn.transform.eulerAngles = randomRotation;
+			Vector3 randomRotation = transform.eulerAngles;
+			randomRotation.y = Random.Range(0f, 360f);
 
-        Instantiate(treatToSpawn, transform.position, treatToSpawn.transform.rotation);
+			treatToSpawn.transform.eulerAngles = randomRotation;
 
-        yield return new WaitForSeconds(spawnDelay);
+			Instantiate(treatToSpawn, transform.position, treatToSpawn.transform.rotation);
+
+			yield return new WaitForSeconds(spawnDelay);
+		}
     }
 }

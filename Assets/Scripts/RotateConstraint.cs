@@ -12,5 +12,7 @@ public class RotateConstraint : MonoBehaviour {
         else if(rotationZ > 25) {
             transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, 25);
         }
+
+		Debug.Log(rotationZ);
     }
 }

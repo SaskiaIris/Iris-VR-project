@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1079,8 +1079,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730901110}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.002, y: 0.492, z: 0.619}
-  m_LocalScale: {x: 0.75, y: 0.1, z: 0.7}
+  m_LocalPosition: {x: 0.002, y: 0.231, z: 0.619}
+  m_LocalScale: {x: 0.75, y: 0.5, z: 0.7}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -1867,6 +1867,7 @@ GameObject:
   - component: {fileID: 1188205317}
   - component: {fileID: 1188205316}
   - component: {fileID: 1188205315}
+  - component: {fileID: 1188205319}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -1951,6 +1952,22 @@ Transform:
   m_Father: {fileID: 1794898157}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!54 &1188205319
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188205314}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &1225266433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2020,6 +2037,7 @@ GameObject:
   - component: {fileID: 1234614165}
   - component: {fileID: 1234614164}
   - component: {fileID: 1234614163}
+  - component: {fileID: 1234614166}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -2104,6 +2122,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234614161}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &1234614166
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234614161}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!4 &1275502805 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2786613757226253534, guid: 3da18400ba94b7d42a35c381649e637d, type: 3}
@@ -2296,7 +2330,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 62
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &1343151449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2628,7 +2662,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2283998145508189884, guid: df7169d0ab9706644ad931c834851fb2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3169,7 +3203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7144050961307272971, guid: 55ae1e2810092f448b27e31d9bb1072e, type: 3}
       propertyPath: spawnDelay
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7144050961307272971, guid: 55ae1e2810092f448b27e31d9bb1072e, type: 3}
       propertyPath: treats.Array.size

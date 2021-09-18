@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\FallingTreats.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Third Party Assets\Mg3D_Food\README.txt" />
     <None Include="Assets\Third Party Assets\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
     <None Include="Assets\Third Party Assets\StoneWalls\readme.txt" />
   </ItemGroup>

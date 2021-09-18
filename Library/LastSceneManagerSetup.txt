@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CandyStore.unity
+- path: Assets/Scenes/CandyStore Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

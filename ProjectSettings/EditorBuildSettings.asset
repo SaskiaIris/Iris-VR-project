@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CandyStore.unity
     guid: 1b72bd79402235340b3281a924e7d72e
+  - enabled: 1
+    path: Assets/Scenes/CandyStore Demo.unity
+    guid: 558368ac6f1e737439ed1afc94ad35fe
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 763a958bf01a8e94888e00d3085238d4, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8d457d9573ab3524a9efa1e67ae0eca9, type: 2}

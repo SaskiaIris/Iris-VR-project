@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7570636377125709750}
   - component: {fileID: 6061881024147642419}
   - component: {fileID: -2684190529258322907}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Pink Donut
   m_TagString: Untagged
   m_Icon: {fileID: 0}

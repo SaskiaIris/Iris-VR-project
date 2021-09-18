@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2969946334434943847}
   - component: {fileID: 4735433854616298915}
   - component: {fileID: -1069925354275481862}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cherry Cupcake
   m_TagString: Cupcake
   m_Icon: {fileID: 0}

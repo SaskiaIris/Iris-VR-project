@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2961781615335873743}
   - component: {fileID: 3293035860973147252}
   - component: {fileID: 2859928372285056343}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Oreo Cupcake
   m_TagString: Cupcake
   m_Icon: {fileID: 0}

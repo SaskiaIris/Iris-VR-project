@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8931501747532114060}
   - component: {fileID: 7787262035485299243}
   - component: {fileID: -3680650401167221216}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Chocolattechips Cupcake
   m_TagString: Cupcake
   m_Icon: {fileID: 0}

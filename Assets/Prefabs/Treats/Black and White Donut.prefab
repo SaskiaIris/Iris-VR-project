@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8384283094361947118}
   - component: {fileID: 2234330857516693948}
   - component: {fileID: -1958298156175542964}
-  m_Layer: 8
+  m_Layer: 3
   m_Name: Black and White Donut
   m_TagString: Untagged
   m_Icon: {fileID: 0}

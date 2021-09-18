@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4338265409878073065}
   - component: {fileID: 7672675128353262054}
   - component: {fileID: -7850519364433166294}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Strawberry Cheesecake
   m_TagString: Pie
   m_Icon: {fileID: 0}

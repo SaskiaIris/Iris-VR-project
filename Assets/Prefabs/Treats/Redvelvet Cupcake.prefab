@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 832191804488459291}
   - component: {fileID: 822498927792302918}
   - component: {fileID: 6916779881765109658}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Redvelvet Cupcake
   m_TagString: Cupcake
   m_Icon: {fileID: 0}
